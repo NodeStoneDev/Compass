@@ -2,10 +2,11 @@
 
 **NodeStone Compass Protocol（NCP）** —— 一套基于 BitTorrent v2 的开放资源分发协议，以及 NodeStone 官方基于该协议维护的元数据源。
 
-当前版本：**v0.7.0 Preview** · 许可证：[Apache-2.0](LICENSE)
+当前版本：**v0.8.0** · 许可证：[Apache-2.0](LICENSE)
 
 ## 文档
 
 * [总览及最小实现](docs/OVERVIEW.md)：术语、整体流程、预配置、NSFID 编码与最小可用实现
-* [客户端推荐实现](docs/minecraft/CLIENT_RECOMMENDED_IMPLEMENTATION.md)：批量下载调度、缓存未命中自愈、本地缓存与做种清理
+* [客户端推荐实现](docs/minecraft/CLIENT_RECOMMENDED_IMPLEMENTATION.md)：批量下载调度、缓存未命中自愈、WebSeed 桥接与本地缓存清理
+* [服务端推荐实现](docs/minecraft/SERVER_RECOMMENDED_IMPLEMENTATION.md)：资源分类与投递策略、Packer 打包规范、NSCL 构建与签名发布
 * [协议规范](docs/PROTOCOL_SPECIFICATION.md)：`latest.json` 字段表、BT v2 种子打包规范与完整示例
